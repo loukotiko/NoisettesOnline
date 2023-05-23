@@ -47,4 +47,4 @@ jobs:
           CHANNEL: windows
           ITCH_GAME: chataignes
           ITCH_USER: loukotiko
-          PACKAGE: build/windows
+          PACKAGE: build/StandaloneWindows
