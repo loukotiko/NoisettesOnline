@@ -30,7 +30,7 @@ jobs:
           # UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           # UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
-          targetPlatform: WebGL
+          targetPlatform: StandaloneWindows
        # Return License (Un-Comment if you're using a pro license)
        #- name: Return license
        #  uses: game-ci/unity-return-license@v1
@@ -47,4 +47,4 @@ jobs:
           CHANNEL: windows
           ITCH_GAME: chataignes
           ITCH_USER: loukotiko
-          PACKAGE: build/WebGL
+          PACKAGE: build/windows
