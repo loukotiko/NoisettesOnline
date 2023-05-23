@@ -40,3 +40,11 @@ jobs:
         with:
           name: Build
           path: build
+      # Upload to Itch
+      - uses: josephbmanley/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+          CHANNEL: windows
+          ITCH_GAME: chataignes
+          ITCH_USER: loukotiko
+          PACKAGE: build/WebGL
