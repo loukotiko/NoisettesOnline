@@ -90,7 +90,6 @@ public class CardManager : MonoBehaviour
 
     public void CancelReplaceCard()
     {
-        GameManager.CancelTurn();
         MoveBackToRiver();
     }
 

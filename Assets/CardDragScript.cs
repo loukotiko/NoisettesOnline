@@ -38,7 +38,6 @@ public class CardDragScript : MonoBehaviour
         isDragging = true;
         sortingGroup.sortingOrder = 1;
         mousePositionOffset = transform.position - GetMousePosition();
-        GameManager.CancelTurn(cardManager);
     }
 
     private void OnMouseDrag()

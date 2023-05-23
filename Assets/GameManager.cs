@@ -84,8 +84,7 @@ public class GameManager : NetworkBehaviour
         // Réactiver la rivière
         foreach (var card in River.Cards)
         {
-            if (card.Value != Turn.card)
-                card.Value.UnsetDraggable();
+            card.Value.UnsetDraggable();
         }
     }
 
