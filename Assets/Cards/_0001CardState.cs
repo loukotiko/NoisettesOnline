@@ -7,7 +7,7 @@ public class _0001CardState : CardState
     public _0001CardState()
     {
         CardId = "_0001";
-        Illustration = "Personnage_1";
+        Illustration = "_0000";
         Name = "Bourrin";
         Replacable = Random.Range(0, 100) < 50;
         InitialStrength = 9;

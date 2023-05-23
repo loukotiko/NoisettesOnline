@@ -12,7 +12,7 @@ public abstract class CardState : INetworkSerializable
 
     protected string Name;
 
-    protected string Illustration = "Personnage_1";
+    protected string Illustration = "_0000";
 
     protected string Definition = "Aucun effet";
 

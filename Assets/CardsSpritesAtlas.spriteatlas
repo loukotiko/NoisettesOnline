@@ -52,7 +52,7 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: ab7c8cc059df5a24bb920e1fc7b947f4, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Personnage_1
+  - _0000
   m_RenderDataMap: {}
   m_Tag: CardsSpriteAtlas
   m_IsVariant: 0

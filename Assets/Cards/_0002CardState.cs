@@ -7,7 +7,7 @@ public class _0002CardState : CardState
     public _0002CardState()
     {
         CardId = "_0002";
-        Illustration = "Personnage_1";
+        Illustration = "_0000";
         Name = "Gardien";
         Replacable = false;
         InitialStrength = 4;
